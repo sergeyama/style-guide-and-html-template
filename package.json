@@ -1,0 +1,23 @@
+{
+  "name": "style-guide-and-html-template",
+  "version": "1.0.0",
+  "description": "Типовые шаблоны верстки для работы",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergeyama/style-guide-and-html-template.git"
+  },
+  "author": "Sergei Malkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergeyama/style-guide-and-html-template/issues"
+  },
+  "homepage": "https://github.com/sergeyama/style-guide-and-html-template#readme",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
