@@ -1,8 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './app.jsx'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+
+import App from './components/App.jsx'
+import About from './components/About.jsx'
 
 ReactDOM.render(
-    <App />,
-    document.getElementById('content')    
+    <div className='test'>        
+        <Router>
+            <Switch>
+                <Route path='/' exact component={App} />
+                <Route path='/about' exact component={About} />
+            </Switch>        
+        </Router>
+    </div>,
+    document.getElementById('root')    
 );

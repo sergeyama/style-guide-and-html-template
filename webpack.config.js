@@ -4,11 +4,13 @@ module.exports = {
     entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'js/bundle.js'
+        filename: 'js/bundle.js',
+        publicPath: '/'
     },
     devtool: 'inline-source-map',
     devServer: {
       contentBase: './dist',
+      historyApiFallback: true
     },
     module: {
         rules: [
